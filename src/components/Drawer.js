@@ -1,18 +1,20 @@
-function Drawer() {
+function Drawer({onClose, items = []}) {
     return(
-        <div style={{display: 'none'}} className="overlay">
+        <div  className="overlay">
             <div className="drawer">
-            <h2 className="mb-30 justify-between d-flex">Корзина <img className="cu-p"  src="/img/btn-remove.svg" alt="img" /></h2>
+            <h2 className="mb-30 justify-between d-flex">Корзина <img className="cu-p" onClick={onClose}  src="/img/btn-remove.svg" alt="img" /></h2>
 
                 <div className="items">
-                <div className="cartItem d-flex align-center mb-20">
-                    <div style={{ backgroundImage:'url(/img/sneakers/1.jpg)'}} className="cartItemImg"></div>
-                    <div className="mr-20 d-flex">
-                    <p className="mb-5">Мужские кроссовки Nike</p>
-                    <b>12 999р.</b>
+                {items.map(obj=>(
+                    <div className="cartItem d-flex align-center mb-20">
+                        <div style={{ backgroundImage:`url(${obj.imageUrl})`}} className="cartItemImg"></div>
+                        <div className="mr-20 d-flex">
+                        <p className="mb-5">{obj.title}</p>
+                        <b>{obj.price} р.</b>
+                        </div>
+                        <img className="removeBtn"  src="/img/btn-remove.svg" alt="img" />
                     </div>
-                    <img className="removeBtn"  src="/img/btn-remove.svg" alt="img" />
-                </div>
+                ))}
                 </div>
                 <div className="cartTotalBlock">
                 <ul>
