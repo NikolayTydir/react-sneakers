@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>Портфолио</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+
+</head>
+
+<body>
+<script>
+	function checkParams() {
+    var email = $('.call_me #email_1').val();
+    var message_1 = $('.call_me #message_1').val();
+
+    
+    if(email.length > 1 && message_1.length > 1) {
+        $('.call_me #submit').removeAttr('disabled');
+    } else {
+        $('.call_me #submit').attr('disabled', 'disabled');
+    }
+}
+
+	function checkParams_2() {
+    var email_2 = $('.call_me #email_2').val();
+    var message_2 = $('.call_me #message_2').val();
+
+    
+    if(email_2.length > 1 && message_2.length > 1) {
+        $('.call_me #submit_2').removeAttr('disabled');
+    } else {
+        $('.call_me #submit_2').attr('disabled', 'disabled');
+    }
+}
+	function checkParams_3() {
+    var email_3 = $('.call_me #email_3').val();
+    var message_3 = $('.call_me #message_3').val();
+
+    
+    if(email_3.length > 1 && message_3.length > 1) {
+        $('.call_me #submit_3').removeAttr('disabled');
+    } else {
+        $('.call_me #submit_3').attr('disabled', 'disabled');
+    }
+}
+	</script>
+<header class="main_header">
+	<div class="bg_image">
+		<img src="img/bg.png" alt="bg">
+	</div>
+	<div class="container">
+
+		<div class="row fadeIn animated delay-1s">
+			<div class="col-xl-3">
+				<div class="logo">Den Petrov LOGO</div>
+			</div>
+			<div class="col-xl-6">
+				<nav class="menu">
+					<li><a href="#about">Обо мне</a></li>
+					<li><a href="#services">Услуги</a></li>
+					<li><a href="#portfolio">Портфолио</a></li>
+					<li><a href="#sertificat">Сертификаты</a></li>
+					<li><a href="#contact">Контакты</a></li>
+				</nav>
+			</div>
+			<div class="col-xl-3">
+				<a href="#" class="head_button" data-fancybox data-src="#pop_up" data-options='{"touch" : false}'>
+					Обсудить проект
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xl-6">
+				<div class="left_block">
+					<h1 class="fadeInLeft animated delay-1s">Денис Петров</h1>
+					<div class="under_name fadeInLeft animated delay-1s">веб-разработчик сайтов <br>и мобильных приложений</div>
+					<a href="#about" class="btn fadeInLeft animated delay-1s" >Подробнее</a>
+					<div class="img_wrap fadeInRight animated delay-1s">
+						<img src="img/img1.png" alt="image">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+</header>
+
+<section class="section_2" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-7 offset-xl-5">
+				<div class="about">
+					<div class="img_wrap wow fadeInLeft animated delay-1s"><img src="img/img2.png" alt="image"></div>
+					<h2 class="wow fadeInUp animated delay-1s">Давай знакомиться</h2>
+					<div class="about__info wow fadeInRight animated delay-1s">
+						Меня зовут Денис Петров и я веб-разработчик. Повседневная практика показывает, что постоянное информационно пропагандистское обеспечение нашей деятельности позволяет оценить значение соответствующий условий активизации. <br><br>
+
+						Новая модель организационной деятельности представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Идейные соображения высшего порядка, а также реализация намеченных плановых заданий способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
+					</div>
+					<div class="contact wow fadeInDown animated delay-1s"><span>	Телефон</span>	 <a href="tel:+71234567890">+7 (123) 456 – 78 – 90</a>		</div>
+					<div class="contact wow fadeInDown animated delay-1s"><span>	E-mail</span>	 <a href="mailto:denfgt@gmail.com">denfgt@gmail.com</a>		</div>
+					<div class="contact wow fadeInDown animated delay-1s"><span>	Соц. сети</span>	 <a href="#"><img src="img/fb.svg" alt="facebook"></a>		</div>
+
+					<ul class="skils wow fadeInDown animated delay-1s">
+						<li><img src="img/swift.svg" alt="swift">Swift</li>
+						<li><img src="img/xcode.svg" alt="xcode">Xcode</li>
+						<li><img src="img/AngularJS.png" alt="AngularJS">AngularJS</li>
+						<li><img src="img/git.png" alt="git">git</li>
+						<li><img src="img/Javascript.png" alt="Javascript">Javascript</li>
+						<li><img src="img/php.png" alt="php">php</li>
+						<li><img src="img/python.png" alt="python">python</li>
+
+					</ul>
+
+					<a href="#" class="btn wow fadeInDown animated delay-1s" data-fancybox data-src="#pop_up_hello" data-options='{"touch" : false}'>Написать сообщение</a>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section_3 " id="services">
+	<div class="container">
+		<h2 class="wow fadeInDown animated delay-1s">Услуги</h2>
+		<div class="row">
+
+			<div class="col-xl-4 wow fadeInLeft animated delay-1s">
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item1.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Разработка веб-сайтов</div>
+					<div class="description">Повседневная практика показывает, что начало повседневной работы <br>по формированию позиции способствует подготовке.</div>
+				</div>
+
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item4.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Поддержка</div>
+					<div class="description">Комплекс работ, направленных <br>на обеспечение стабильной работы веб-ресурса.</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 wow fadeInUp animated delay-1s">
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item2.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Продвижение веб-сайтов</div>
+					<div class="description">Комплекс действий, которые помогают потенциальным клиентам быстро найти ваш сайт в поисковых системах Google, Яндекс (и других).</div>
+				</div>
+
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item5.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Интернет-реклама</div>
+					<div class="description">Виды этой рекламы: баннеры, текстовые блоки, видеореклама, байрики, мини-сайты, Interstitials.</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4 wow fadeInRight animated delay-1s">
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item3.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Дизайн</div>
+					<div class="description">Внешнее оформление, которое призвано не отпугнуть посетителя  интернет-ресурса, и как максимум — завлечь, заинтересовать его.</div>
+				</div>
+
+				<div class="item">
+					<div class="img_wrap">
+						<img src="img/item6.png" class="img-responsive" alt="item">
+					</div>
+					<div class="title">Разработка iOS приложений</div>
+					<div class="description">Процесс разработки нативного приложения — это написание программы на одном из основных языков для платформы iOS.</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="section_4" id="portfolio">
+	<div class="container">
+
+		<h2 class="wow">Портфолио</h2>
+
+		<div id="tabmenu">  
+	    <ul id="nav">
+	      <li><a  class="active">Все работы</a></li>
+	      <li><a>Сайты</a></li>
+	      <li><a>Мобильные приложения</a></li>
+	    </ul>
+
+		  <div id="tab-content">
+
+		    <div id="tab1">
+		    	<div class="row">
+
+		    		<div class="col-xl-4">
+		    			<div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project1" data-options='{"touch" : false}'>
+						  		<img src="img/project1.png" alt="project">
+						  		<span class="title">Сайт1 <br>Сайт1</span>
+						  		<span class="date">Ноябрь, 2019</span>
+						  	</a>
+
+						  	<div class="project" style="display: none;" id="project1">
+						  		<div class="wrap">		
+						  		<h2>Мобильное приложение English Tochka</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Ноябрь, 2019</div></div>
+
+						  		<img src="img/project1_detail.png" alt="project">
+
+						  		<img src="img/project1_detail_2.png" alt="project">
+
+						  		<img src="img/project1_detail_3.png" alt="project">
+
+						  		<a href="#" class="btn">Скачать приложение</a>
+						  		</div>
+						  	</div>
+
+
+						  </div>
+
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project4" data-options='{"touch" : false}'>
+						  		<img src="img/project4.png" alt="project">
+						  		<span class="title">Сайт4</span>
+						  		<span class="date">Сентябрь, 2019</span>
+						  	</a>
+						  	<div class="project" style="display: none;" id="project4">
+						  		<div class="wrap">		
+						  		<h2>Приложение для заказа еды</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Сентябрь, 2019</div></div>
+
+						  		<img src="img/project4_detail.png" alt="project">
+
+						  		<a href="#" class="btn">Скачать приложение</a>
+						  		</div>
+						  	</div>
+						  </div>
+		    		</div>
+
+		    		<div class="col-xl-4">
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project2" data-options='{"touch" : false}'>
+						  		<img src="img/project2.png" alt="project">
+						  		<span class="title">Сайт2</span>
+						  		<span class="date">Октябрь, 2019</span>
+						  	</a>
+						  	<div class="project" style="display: none;" id="project2">
+						  		<div class="wrap">		
+						  		<h2>Сайт-визитка</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Октябрь, 2019</div></div>
+
+						  		<img src="img/project2_detail.png" alt="project">
+
+						  		<img src="img/project2_detail_2.png" alt="project">
+
+						  		<img src="img/project2_detail_3.png" alt="project">
+
+						  		<a href="#" class="btn">Посетить сайт</a>
+						  		</div>
+						  	</div>
+						  </div>
+
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project5" data-options='{"touch" : false}'>
+						  		<img src="img/project5.png" alt="project">
+						  		<span class="title">Преложение1</span>
+						  		<span class="date">Июль, 2019</span>
+						  	</a>
+						  	<div class="project" style="display: none;" id="project5">
+						  		<div class="wrap">		
+						  		<h2>Разработка приложения Daily Yoga</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Июль, 2019</div></div>
+
+						  		<img src="img/project5_detail.png" alt="project">
+
+
+						  		<a href="#" class="btn">Скачать приложение</a>
+						  		</div>
+						  	</div>
+					  	</div>
+		    		</div>
+
+		    		<div class="col-xl-4">
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project3" data-options='{"touch" : false}'>
+						  		<img src="img/project3.png" alt="project">
+						  		<span class="title">Сайт3</span>
+						  		<span class="date">Октябрь, 2019</span>
+						  	</a>
+						  	<div class="project" style="display: none;" id="project3">
+						  		<div class="wrap">		
+						  		<h2>Интернет-магазин мебели ручной работы</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Октябрь, 2019</div></div>
+
+						  		<img src="img/project3_detail.png" alt="project">
+
+						  		<img src="img/project3_detail_2.png" alt="project">
+
+						  		<a href="#" class="btn">Посетить сайт</a>
+						  		</div>
+						  	</div>
+						  </div>
+
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project6" data-options='{"touch" : false}'>
+						  		<img src="img/project6.png" alt="project">
+						  		<span class="title">Приложения2</span>
+						  		<span class="date">Июнь, 2019</span>
+						  	</a>
+						  	<div class="project" style="display: none;" id="project6">
+						  		<div class="wrap">		
+						  		<h2>Корпоративный сайт</h2>
+						  		<div class="description">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции влечет за собой процесс внедрения и модернизации модели развития. С другой стороны консультация с широким активом в значительной степени обуславливает создание новых предложений. Таким образом постоянный количественный рост и сфера нашей активности требуют определения <br>и уточнения систем массового участия.</div>
+
+
+						  		<div class="what_we_do"><div class="left">Что сделано</div> <div class="right">Повседневная практика показывает, что реализация намеченных плановых заданий способствует подготовки и реализации систем массового участия.</div></div>
+
+						  		<div class="what_we_do"><div class="left">Дата</div> <div class="right">Июнь, 2019</div></div>
+
+						  		<img src="img/project6_detail.png" alt="project">
+
+
+						  		<a href="#" class="btn">Посетить сайт</a>
+						  		</div>
+						  	</div>
+						  </div>
+
+		    		</div>
+		    	</div>
+
+
+		    </div>
+
+		    <div id="tab2">
+		    	<div class="row">
+
+						<div class="col-xl-4">
+		    			<div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project1" data-options='{"touch" : false}'>
+						  		<img src="img/project1.png" alt="project">
+						  		<span class="title">Мобильное приложение <br>English Tochka</span>
+						  		<span class="date">Ноябрь, 2019</span>
+						  	</a>
+						  </div>
+
+
+		    		</div>
+		    		<div class="col-xl-4">
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project2" data-options='{"touch" : false}'>
+						  		<img src="img/project2.png" alt="project">
+						  		<span class="title">Сайт-визитка</span>
+						  		<span class="date">Октябрь, 2019</span>
+						  	</a>
+						  </div>
+		    		</div>
+
+		    		<div class="col-xl-4">
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project3" data-options='{"touch" : false}'>
+						  		<img src="img/project3.png" alt="project">
+						  		<span class="title">Интернет-магазин мебели ручной работы</span>
+						  		<span class="date">Октябрь, 2019</span>
+						  	</a>
+						  </div>
+		    		</div>
+
+
+
+		    		<div class="col-xl-4">
+		    			<div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project4" data-options='{"touch" : false}'>
+						  		<img src="img/project4.png" alt="project">
+						  		<span class="title">Приложение для заказа еды</span>
+						  		<span class="date">Сентябрь, 2019</span>
+						  	</a>
+						  </div>
+
+
+		    		</div>
+
+		    	</div>		     
+		    </div>
+
+		    <div id="tab3">
+		    	<div class="row">
+
+		    		<div class="col-xl-4">
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project5" data-options='{"touch" : false}'>
+						  		<img src="img/project5.png" alt="project">
+						  		<span class="title">Разработка приложения Daily Yoga</span>
+						  		<span class="date">Июль, 2019</span>
+						  	</a>
+					  	</div>
+
+		    		</div>
+
+		    		<div class="col-xl-4">
+
+
+						  <div class="grid-item">
+						  	<a href="#" data-fancybox data-src="#project6" data-options='{"touch" : false}'>
+						  		<img src="img/project6.png" alt="project">
+						  		<span class="title">Корпоративный сайт</span>
+						  		<span class="date">Июнь, 2019</span>
+						  	</a>
+						  </div>
+
+		    		</div>
+
+		    	</div>		     
+		    </div>
+
+			</div>
+		</div>
+
+		<a href="project.html" class="btn">Посмотреть больше работ</a>
+
+	</div>
+</section>
+
+
+<section class="section_5" id="sertificat">
+	<div class="container wow fadeIn animated delay-1s">
+		<h2>Сертификаты</h2>
+		<div class="row">
+
+			<div class="col">
+
+				<div class="center">
+				  <div>
+				  	<a href="img/serteficat1.png" data-fancybox="images" data-caption="My caption">
+							<img class="img-responsive" src="img/serteficat1.png" alt="sertificat">
+						</a>
+				  </div>
+				  <div>
+				  	<a href="img/serteficat1.png" data-fancybox="images" data-caption="My caption">
+							<img class="img-responsive" src="img/serteficat1.png" alt="sertificat">
+						</a>
+				  </div>
+				  <div>
+				  	<a href="img/serteficat1.png" data-fancybox="images" data-caption="My caption">
+							<img class="img-responsive" src="img/serteficat1.png" alt="sertificat">
+						</a>
+				  </div>
+				</div>
+
+				<div class="prev">
+					<img src="img/left.png" alt="left">
+				</div>
+
+				<div class="next">
+					<img src="img/right.png" alt="right">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section_6" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-7 offset-xl-5">
+				<div class="call_us">
+					<div class="img_wrap wow fadeInLeft animated delay-1s"><img src="img/img3.png" alt="image"></div>
+					<h2 class="wow fadeInRight animated delay-1s">Хотите обсудить проект?</h2>
+					<div class="call__info wow fadeInRight animated delay-1s">Напишите мне и я свяжусь с вами в течении 30 минут				</div>
+
+
+					<form action="#" class="call_me wow fadeInRight animated delay-1s">
+						<input onkeyup='checkParams();' id="email_1" type="email" placeholder="E-mail"  >
+						<textarea onkeyup='checkParams();' id="message_1" placeholder="Текст заявки"  ></textarea>
+
+						<div class="bottom_info">
+							<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+							<button id="submit" type="submit" disabled="disabled">Отправить</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section_7">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-4 wow fadeInUp animated delay-1s">
+				<h2>Готовы оплатить проект?</h2>
+				<div class="info">С другой стороны рамки и место обучения кадров позволяет выполнять важные задания.</div>
+			</div>
+			<div class="col-xl-8 wow fadeInDown animated delay-1s">
+				<form action="" class="pay">
+					<input type="text" placeholder="Сумма платежа">
+					<button href="#" class="btn">Оплатить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="main_footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-3">
+				<div class="logo">Den Petrov LOGO</div>
+				<div class="copyright">© 2016-2019, Денис Петров. <br>Все права защищены.</div>
+			</div>
+
+			<div class="col-xl-3">
+				<div class="iin">ИП Петров. ИНН: 11111111</div>
+				<a href="oferta.html" class="public">Публичная оферта</a>
+
+			</div>
+
+			<div class="col-xl-3">
+				<a href="tel:+71234567890" class="tel" >+7 (123) 456 – 78 – 90</a>
+				<a href="mailto:denfgt@gmail.com" class="tel">denfgt@gmail.com</a>
+			</div>
+
+			<div class="col-xl-3">
+				<a href="#" class="footer_button" data-fancybox data-src="#pop_up" data-options='{"touch" : false}'>
+						Обсудить проект
+				</a>
+				<img class="webmoney" src="img/web_money.png" alt="webmoney">
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<div class="pop_up" style="display: none;" id="pop_up">
+	<div class="wrap">		
+		<h2>Обсудить проект</h2>
+		<div class="description">Заполните форму и я свяжусь с вами.</div>
+
+
+		<form action="#" class="call_me">
+			<input onkeyup='checkParams_2();' id="email_2" type="email" placeholder="E-mail"  >
+			<textarea onkeyup='checkParams_2();' id="message_2" placeholder="Текст заявки"  ></textarea>
+
+			<div class="bottom_info">
+				<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+				<button id="submit_2" type="submit" disabled="disabled">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="pop_up" style="display: none;" id="pop_up_hello">
+	<div class="wrap">		
+		<h2>Приветсвую!</h2>
+		<div class="description">Есть вопросы? Заполните форму и я свяжусь с вами.</div>
+
+
+		<form action="#" class="call_me">
+			<input onkeyup='checkParams_3();' id="email_3" type="email" placeholder="E-mail"  >
+			<textarea onkeyup='checkParams_3();' id="message_3" placeholder="Текст заявки"  ></textarea>
+
+			<div class="bottom_info">
+				<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+				<button id="submit_3" type="submit" disabled="disabled">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+	<script src="js/scripts.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/WOW.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script>
+		new WOW().init(); 
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<base href="/">
+
+	<title>Портфолио</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href=" img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href=" img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href=" css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href=" css/style.css">
+
+	<link rel="stylesheet" href=" css/jquery.fancybox.min.css">
+
+	<script src="js/common.js"></script>
+
+
+</head>
+
+<body>
+<script>
+
+	function checkParams() {
+		var email = $('.call_me #email_1').val();
+		var message_1 = $('.call_me #message_1').val();
+
+
+		if(email.length > 1 && message_1.length > 1) {
+			$('.call_me #submit').removeAttr('disabled');
+		} else {
+			$('.call_me #submit').attr('disabled', 'disabled');
+		}
+	}
+
+	function checkParams_2() {
+		var email_2 = $('.call_me #email_2').val();
+		var message_2 = $('.call_me #message_2').val();
+
+
+		if(email_2.length > 1 && message_2.length > 1) {
+			$('.call_me #submit_2').removeAttr('disabled');
+		} else {
+			$('.call_me #submit_2').attr('disabled', 'disabled');
+		}
+	}
+	function checkParams_3() {
+		var email_3 = $('.call_me #email_3').val();
+		var message_3 = $('.call_me #message_3').val();
+
+
+		if(email_3.length > 1 && message_3.length > 1) {
+			$('.call_me #submit_3').removeAttr('disabled');
+		} else {
+			$('.call_me #submit_3').attr('disabled', 'disabled');
+		}
+	}
+</script>
+<style>
+	.displaynone{
+		display: none !important;
+	}
+</style>
+<header class="main_header_project">
+	<div class="wrap" style="max-width: 1560px!important;">
+
+
+		<div class="row fadeIn animated delay-1s">
+			<div class="col-xl-2">
+				<div class="logo">Den Petrov LOGO</div>
+			</div>
+
+			<div class=" offset-xl-8 col-xl-2">
+				<a href="#" class="head_button" data-fancybox data-src="#pop_up" data-options='{"touch" : false}'>
+					Заказать проект
+				</a>
+			</div>
+		</div>
+
+
+		<div class="row fadeIn animated delay-1s">
+			<div class="col-xl-3">
+				<div class="project">Проекты</div>
+			</div>
+
+			<div class="offset-xl-3 col-xl-6">
+
+				<nav class="menu_projects">
+					<li><a class="active filter_button" href="#" data-filter = "0" onclick="return false">Все проекты</a></li>
+					<li><a class="filter_button" href="" data-filter = "1" onclick="return false">Сайты</a></li>
+					<li><a class="filter_button" href="" data-filter = "2" onclick="return false">Мобильные приложения</a></li>
+					<li><a class=" filter_button" href="" data-filter = "3" onclick="return false">Технологии</a></li>
+				</nav>
+
+			</div>
+		</div>
+
+		<div class="slider-for fadeIn animated delay-1s" >
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт1</div>
+					<div class="name">Сайт1</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj1.png" alt="proj1" class="img-responsive">
+				</div>
+			</div>
+
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт2</div>
+					<div class="name">Сайт2</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj2.png" alt="proj2" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт3</div>
+					<div class="name">Сайт3</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj3.png" alt="proj3" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт4</div>
+					<div class="name">Сайт4</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj4.png" alt="proj1" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт5</div>
+					<div class="name">Сайт5</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj5.png" alt="proj5" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "1">
+				<div class="left_side">
+					<div class="app">Сайт6</div>
+					<div class="name">Сайт6</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj6.png" alt="proj6" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "3">
+				<div class="left_side">
+					<div class="app">Технологии</div>
+					<div class="name">Технологии</div>
+
+					<a href="#" class="go_to_small">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Посетить сайт</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj7.png" alt="proj1" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "2">
+				<div class="left_side">
+					<div class="app">Приложения1</div>
+					<div class="name">Приложения1</div>
+
+					<a href="#" class="go_to">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Скачать приложения</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj8.png" alt="proj1" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row slides_content" data-filter = "2">
+				<div class="left_side">
+					<div class="app">Приложения2</div>
+					<div class="name">Приложения21</div>
+
+					<a href="#" class="go_to">
+						<img src=" img/foreign.png" alt="foreign">
+						<span>Скачать приложения</span>
+					</a>
+				</div>
+				<div class="right_side">
+					<img src=" img/proj9.png" alt="proj1" class="img-responsive">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="slider-nav fadeIn animated delay-1s" >
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview1.png" alt="preview1">
+			</div>
+
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview2.png" alt="preview2">
+			</div>
+
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview3.png" alt="preview3">
+			</div>
+
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview4.png" alt="preview4">
+			</div>
+
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview5.png" alt="preview5">
+			</div>
+
+			<div class="preview" data-filter = "1" >
+				<img src=" img/preview6.png" alt="preview6">
+			</div>
+
+			<div class="preview" data-filter = "3" >
+				<img src=" img/preview7.png" alt="preview7">
+			</div>
+
+			<div class="preview" data-filter = "2" >
+				<img src=" img/preview8.png" alt="preview8">
+			</div>
+
+			<div class="preview" data-filter = "2" >
+				<img src=" img/preview9.png" alt="preview9">
+			</div>
+
+		</div>
+
+		<div class="prev fadeIn animated delay-1s">
+			<img src=" img/left_g.png" alt="left">
+		</div>
+
+		<div class="next fadeIn animated delay-1s">
+			<img src=" img/right_g.png" alt="right">
+		</div>
+		<div class="img_wrap fadeIn animated delay-1s">
+			<img src=" img/round.png" alt="round">
+		</div>
+
+
+
+	</div>
+
+</header>
+
+
+
+
+
+<div class="pop_up" style="display: none;" id="pop_up">
+	<div class="wrap">
+		<h2>Обсудить проект</h2>
+		<div class="description">Заполните форму и я свяжусь с вами.</div>
+
+
+		<form action="#" class="call_me">
+			<input onkeyup='checkParams_2();' id="email_2" type="email" placeholder="E-mail"  >
+			<textarea onkeyup='checkParams_2();' id="message_2" placeholder="Текст заявки"  ></textarea>
+
+			<div class="bottom_info">
+				<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+				<button id="submit_2" type="submit" disabled="disabled">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="pop_up" style="display: none;" id="pop_up">
+	<div class="wrap">
+		<h2>Обсудить проект</h2>
+		<div class="description">Заполните форму и я свяжусь с вами.</div>
+
+
+		<form action="#" class="call_me">
+			<input onkeyup='checkParams_2();' id="email_2" type="email" placeholder="E-mail"  >
+			<textarea onkeyup='checkParams_2();' id="message_2" placeholder="Текст заявки"  ></textarea>
+
+			<div class="bottom_info">
+				<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+				<button id="submit_2" type="submit" disabled="disabled">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="pop_up" style="display: none;" id="pop_up_hello">
+	<div class="wrap">
+		<h2>Приветсвую!</h2>
+		<div class="description">Есть вопросы? Заполните форму и я свяжусь с вами.</div>
+
+
+		<form action="#" class="call_me">
+			<input onkeyup='checkParams_3();' id="email_3" type="email" placeholder="E-mail"  >
+			<textarea onkeyup='checkParams_3();' id="message_3" placeholder="Текст заявки"  ></textarea>
+
+			<div class="bottom_info">
+				<div class="info">Нажимая на кнопку вы принимаете <br>условия передачи данных и соглашаетесь <br>с политикой конфиденциальности</div>
+
+				<button id="submit_3" type="submit" disabled="disabled">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<script src=" js/scripts.min.js"></script>
+<script src=" js/slick.min.js"></script>
+<script src=" js/WOW.js"></script>
+<script src=" js/jquery.fancybox.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script>
+	$(document).ready(function () {
+
+
+
+	})
+
+</script>
+</body>
+</html>
