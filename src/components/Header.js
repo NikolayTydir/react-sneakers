@@ -1,3 +1,4 @@
+import React from 'react'
 import {Link} from 'react-router-dom'
 
 function Header(props) {
@@ -23,7 +24,7 @@ function Header(props) {
                 <img width={18} height={18} src="/img/cart.svg" alt="cart" />
                 <span>1205 р.</span>
             </li>
-            <li className="mr-20 cu-p" onClick={props.onClickCart}>
+            <li className="mr-20 cu-p">
                <Link to="/favorites">
                     <img width={18} height={18} src="/img/heart.svg" alt="cart" />
                 </Link>
